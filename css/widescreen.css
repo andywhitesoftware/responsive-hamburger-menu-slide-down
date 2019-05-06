@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+  height: 70px;
+  align-items: center;
+  background: var(--primary-color);
+}
+
+.menu {
+  display: flex;
+  margin-right: 1.85rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: var(--primary-color);
+}
+
+.menu li {
+  display: flex;
+  padding: 0.75rem;
+}
+
+.menu li:hover {
+  background: var(--logo-color);
+}
+
+.menu li a:hover {
+  color: var(--text-color);
+}
+
+.menu .menu-item {
+  padding: 0.55rem;
+}
+
+.logo {
+  display: flex;
+  margin-top: 0;
+}
+
+.hamburger-icon {
+  display: none;
+}
